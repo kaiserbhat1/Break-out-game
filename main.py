@@ -11,6 +11,7 @@ from ball import Ball
 
 # initialing the objects
 sc = Screen()
+sc.title("Break Out")
 sc.bgcolor("black")
 sc.setup(500,700)
 sc.tracer(False)
