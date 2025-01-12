@@ -62,6 +62,8 @@ def game():
         if ball.xcor() <-230 or ball.xcor() > 230:
             ball.bounce_x()
 
+    sc.update()
+
     # display message box
     rs = ctypes.windll.user32.MessageBoxW(0, "Do you want to play again!", "Game Over!", 1)
     if rs == 1:
